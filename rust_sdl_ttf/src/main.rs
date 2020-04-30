@@ -1,23 +1,5 @@
 extern crate sdl2;
 
-/*
-use sdl2::pixels::Color;
-use sdl2::event::Event;
-use sdl2::keyboard::Keycode;
-use sdl2::render::Canvas;
-use sdl2::render::CanvasBuilder;
-use sdl2::render::Texture;
-use sdl2::render::TextureCreator;
-use sdl2::render::WindowCanvas;
-use sdl2::surface::Surface;
-use sdl2::surface::SurfaceContext;
-use sdl2::video::WindowContext;
-use std::time::Duration;
-
-use sdl2::render::TextureQuery;
-use sdl2::rect::Rect;
-*/
-
 // handle the annoying Rect i32
 macro_rules! rect(
     ($x:expr, $y:expr, $w:expr, $h:expr) => (
